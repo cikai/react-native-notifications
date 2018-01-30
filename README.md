@@ -1,5 +1,9 @@
 # React Native Notifications [![Build Status](https://travis-ci.org/wix/react-native-notifications.svg)](https://travis-ci.org/wix/react-native-notifications)
 
+## 更新日志
+
+[RNNotificationsPackage.java](https://github.com/cikai/react-native-notifications/blob/master/android/src/main/java/com/wix/reactnativenotifications/RNNotificationsPackage.java#L34) 第34行，增加 createJSModules() 方法，返回空集合，兼容 React Native 0.44 版本编译，对应commit为[10c9051](https://github.com/cikai/react-native-notifications/commit/10c90517a304ce9f475c80d7f47555191d811332) .
+
 Handle all the aspects of push notifications for your app, including remote and local notifications, interactive notifications, silent notifications, and more.
 
 **All the native iOS notifications features are supported!** 
